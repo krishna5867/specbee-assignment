@@ -1,8 +1,4 @@
-Speaker Details Feature - Acceptance Criteria
-Overview
-
-
-# To-Do List Application
+# Speaker Details
 
 This project implements a feature that allows users to view detailed information about a speaker in a modal or popover. The user interacts with a slider displaying speaker cards, and by clicking on a speaker card, they can access more detailed information about the speaker in an interactive popover. The popover can be dismissed by clicking a close button.
 
