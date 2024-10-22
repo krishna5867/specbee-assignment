@@ -1,0 +1,58 @@
+body {
+    background-color: #F6F6F6
+}
+
+.slick-slide {
+    padding: 8px;
+}
+
+.slick-arrow .slick-prev {
+    border: 2px solid red;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    background: #6F6F6F;
+    border: 1px solid #DADADA;
+    width: 40px;
+    height: 40px;
+    border: 2px solid 6F6F6F;
+    border-radius: 50%;
+    /* box-shadow: 0px 1px 0px #0000001A */
+}
+
+/* bold */
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../src/component/font/Metropolis-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* semi-bold */
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../src/component/font/Metropolis-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* normal */
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../src/component/font/Metropolis-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Metropolis', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+p{
+    font-weight: 400; 
+}
